@@ -10,6 +10,8 @@ int main(void){
         for(j = 0; j < 3; j++){
 			printf("Digite um valor: ");
             scanf ("%i", &matriz[i][j]);
+            fflush(stdin);
+
         }
     } 
 		for(i = 0; i < 3; i++){
