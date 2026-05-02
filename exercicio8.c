@@ -1,6 +1,3 @@
-//Construa um programa que leia uma matriz 3x3 e exiba apenas os
-//elementos da diagonal principal.
-
 #include <stdio.h>
 
 int main(void){
@@ -8,7 +5,7 @@ int main(void){
     int i, j;
     int matriz [3][3];
 
-    // processamento e saída
+    // entrada de dados
     for(i = 0; i < 3; i++){
         for(j = 0; j < 3; j++){
             printf("Digite um valor: ");
@@ -17,8 +14,9 @@ int main(void){
 
         }
     }
+    //processamento e saida
    printf("Elementos da diagonal principal:");
-   for (i =0; i < 3; i++){
+   for (i = 0; i < 3; i++){
    printf("%d ", matriz[i][i]);
 }
     printf("\n");

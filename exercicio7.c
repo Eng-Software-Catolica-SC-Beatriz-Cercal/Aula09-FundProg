@@ -6,7 +6,7 @@ int main(void){
     int matriz [3][3];
     int soma = 0;
 
-    // processamento e saída
+    // entrada de dados
     for(i = 0; i < 3; i++){
         for(j = 0; j < 3; j++){
             printf("Digite um valor: ");
@@ -15,6 +15,7 @@ int main(void){
 
         }
     }
+    //processamento e saida
     for(i = 0; i < 3; i++){
         for(j = 0; j < 3; j++){
             printf("%d ", matriz[i][j]);
