@@ -11,6 +11,8 @@ int main(void){
          scanf ("%i", &n1);        
         fflush(stdin);
 
+        //soma+=n1*pow(10, i)
+
         printf("Digite um valor: ");
          scanf ("%i", &n2);        
         fflush(stdin);
@@ -57,6 +59,5 @@ int main(void){
 
     //saida de dados
     printf("(%i + %i + %i + %i + %i + %i + %i + %i + %i + %i)/10 ", n1, n2, n3, n4, n5, n6, n7, n8, n9, n10);
-	
 	return 0;
 }
