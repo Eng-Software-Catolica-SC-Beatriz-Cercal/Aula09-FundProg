@@ -18,7 +18,7 @@ int main(void){
         soma += vetor[i];
 
     }
-    media = soma/5.0;
+    media = (float) soma/5;
     //saida de dados
     printf("Media dos numeros do Vetor: %f ", media);
 
