@@ -7,7 +7,7 @@ int main(void){
     int maior;
 
     // entrada de dados
-    for(i = 0; i < 10; i++){
+    for(i = 0; i <= 9; i++){
         printf("Digite um valor: ");
         scanf("%d", &vetor[i]);
         fflush(stdin);
@@ -17,7 +17,7 @@ int main(void){
     // processamento
     maior = vetor[0]; 
 
-    for(i = 1; i < 10; i++){
+    for(i = 1; i <= 9; i++){
         if(vetor[i] > maior){
             maior = vetor[i];
         }

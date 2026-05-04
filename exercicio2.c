@@ -7,14 +7,14 @@ int main(void){
     int soma = 0;
 
     // entrada de dados
-    for(i = 0; i < 8; i++){
+    for(i = 0; i <= 7; i++){
         printf("Digite um valor: ");
         scanf ("%i", &vetor[i]);
         fflush(stdin);
 
     }
     //processamento
-    for(i = 0; i < 8; i++){
+    for(i = 0; i <= 7; i++){
         soma += vetor[i];
     }
     //saida de dados

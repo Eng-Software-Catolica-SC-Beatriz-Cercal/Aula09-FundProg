@@ -6,14 +6,14 @@ int main(void){
     int vetor[10];
 
     // entrada de dados
-    for(i = 0; i < 10; i++){
+    for(i = 0; i <= 9; i++){
         printf("Digite um valor: ");
         scanf ("%i", &vetor[i]);
         fflush(stdin);
 
     }
     //processamento
-    for(i = 0; i < 10; i++){
+    for(i = 0; i <= 9; i++){
         if (vetor[i]%2 == 0){
             par++;
         }else{

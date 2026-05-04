@@ -8,13 +8,13 @@ int main(void){
     int soma = 0;
 
     // processamento de dados
-    for(i = 0; i < 5; i++){
+    for(i = 0; i <= 4; i++){
         printf("Digite um valor: ");
         scanf ("%i", &vetor[i]);
         fflush(stdin);
 
     }
-    for(i = 0; i < 5; i++){
+    for(i = 0; i <= 4; i++){
         soma += vetor[i];
 
     }
