@@ -11,7 +11,7 @@ int main(void){
     // entrada de dados
     for(i = 0; i < 2; i++){
         for(j = 0; j < 2; j++){
-            printf("Digite um valor: ");
+            printf("Digite um valor: [%d] [%d]", i, j);
             scanf ("%i", &matriz1[i][j]);
             fflush(stdin);
 
@@ -20,7 +20,7 @@ int main(void){
      // entrada de dados
     for(i = 0; i < 2; i++){
         for(j = 0; j < 2; j++){
-            printf("Digite um valor: ");
+            printf("Digite um valor: [%d] [%d] ", i, j);
             scanf ("%i", &matriz2[i][j]);
             fflush(stdin);
 
