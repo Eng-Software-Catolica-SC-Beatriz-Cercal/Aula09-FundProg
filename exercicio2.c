@@ -6,6 +6,8 @@ int main(void){
     int vetor[8];
     int soma = 0;
 
+    //#define TAM
+    
     // entrada de dados
     for(i = 0; i <= 7; i++){
         printf("Digite um valor: ");
