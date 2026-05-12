@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//poderia usar tam #define
 int main(void){
     // variáveis
     int i, j;
